@@ -10,3 +10,7 @@ toggleroo.addEventListener("click", ()=>{
         sidebar.classList.add("show-sidebar");
     }
 });
+
+closeroo.addEventListener("click", ()=> {
+    sidebar.classList.remove("show-sidebar");
+});
